@@ -1,5 +1,5 @@
 from collections import OrderedDict
-def string(string1,string2,string3,string4,string5):
+def string(string1,string2,string3,string4):
 #	string1 = "test"
 #	string2 = "testing"
 #	string3 = "tted"
@@ -29,7 +29,6 @@ def string(string1,string2,string3,string4,string5):
 	counts.append(count1)
 	counts.append(count2)
 	counts.append(count3)
-	counts.append(count4)
 	mins = min(lengs, key=abs)
 	if lengs[0] == mins:
 		s2 += 1
